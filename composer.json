@@ -1,0 +1,21 @@
+{
+    "name": "svmochalov/php-vanilla-login",
+    "autoload": {
+        "psr-4": {
+            "Kpfu\\Application\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey Mochalov",
+            "email": "svmochalov@kpfu.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "rector/rector": "^1.0.0",
+        "vimeo/psalm": "^5.3"
+    }
+}
