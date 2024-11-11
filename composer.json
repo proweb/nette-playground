@@ -12,10 +12,19 @@
         }
     ],
     "require": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "nette/application": "^3.2",
+        "nette/bootstrap": "^3.2",
+        "tracy/tracy": "^2.10"
     },
     "require-dev": {
-        "rector/rector": "^1.0.0",
-        "vimeo/psalm": "^5.3"
+        "rector/rector": "^1.0.4",
+        "vimeo/psalm": "^5.23.1"
+    },
+    "scripts": {
+        "start": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -S localhost:11000 -t www"
+        ] 
     }
 }
